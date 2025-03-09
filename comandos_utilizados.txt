@@ -1,0 +1,13 @@
+## Para  arrancar cree un repositorio 
+
+echo "# gitgba" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/marriegui/gitgba.git
+git push -u origin main
+
+
+## Agrego un archivo y una foto a modo ejemplo
+
