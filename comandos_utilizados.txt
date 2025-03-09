@@ -10,4 +10,19 @@ git push -u origin main
 
 
 ## Agrego un archivo y una foto a modo ejemplo
+#Primer commit
+ git add logo.jpeg 
+ git commit -m "Agrego Logo de git"
+#Segundo commit
+ git add comandos_utilizados.txt 
+ git commit -m "Agrego comandos utilizado"
 
+# realizo push en la rama MAIN de repositorio remoto.
+
+git remote add origin https://github.com/marriegui/gitgba.git
+git branch -M main
+git push -u origin main
+
+# Agrego captura del los logs  del terminal 
+git add .
+git commit -m  "Agrego capturas de logs"
